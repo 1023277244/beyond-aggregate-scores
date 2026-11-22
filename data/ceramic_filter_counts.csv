@@ -1,0 +1,16 @@
+seed,type,n,fixed_S0,fixed_M,fp_S0,fp_M,diag_S0,diag_M
+42,Overall,199,102,10,5,0,41,51
+42,Scratch,50,16,2,5,0,2,15
+42,CharacterOmission,50,17,1,5,0,1,11
+42,Deformation,49,42,6,5,0,33,22
+42,MissingPart,50,27,1,5,0,5,3
+0,Overall,199,56,29,1,0,68,81
+0,Scratch,50,1,6,1,0,2,24
+0,CharacterOmission,50,3,1,1,0,6,22
+0,Deformation,49,41,22,1,0,44,31
+0,MissingPart,50,11,0,1,0,16,4
+1,Overall,199,66,100,0,2,82,89
+1,Scratch,50,0,37,0,2,1,35
+1,CharacterOmission,50,2,23,0,2,6,19
+1,Deformation,49,45,35,0,2,46,32
+1,MissingPart,50,19,5,0,2,29,3

@@ -1,0 +1,38 @@
+{
+  "frozen_at": "2026-11-22T07:17:37.732448+00:00",
+  "config": {
+    "protocol": "GLASS paired local-strength replication",
+    "source_commit": "f788d567db552820d744ca2d93e989265aad8c45",
+    "products": [
+      "ceramic_wave_filter",
+      "nylon_ball_head"
+    ],
+    "seeds": [
+      42,
+      0,
+      1
+    ],
+    "strengths": {
+      "strong": 0.6666666666666666,
+      "weak": 0.3333333333333333
+    },
+    "epochs": 24,
+    "batch_size": 2,
+    "input_size": 256,
+    "global_gradient_steps": 20,
+    "gas_projection": "official FFT rule using mean normal training image",
+    "backbone": "ImageNet WRN50-2, frozen; layer2/layer3",
+    "foreground_mask": false,
+    "precision": "float32 with TF32",
+    "schedule": "seeded order with paired texture, transforms and Perlin draws",
+    "threshold": "maximum of six independent normal calibration scores",
+    "checkpoint": "last update",
+    "candidate_split_hashes": {
+      "ceramic_wave_filter": "92b2ea4b650354cc9b44e4191cec978ee0d12ff0ba05b66ed332e54a7ca24b2e",
+      "nylon_ball_head": "08d226eb67e58d425419dee419891b0373087080652bb981f94bb32bf8c09238"
+    },
+    "runner_sha256": "6b66841568988aba7585586f8972654f9051e6f7cee2e12c7e1f93283b7fca51",
+    "texture_archive_sha256": "e42855a52a4950a3b59612834602aa253914755c95b0cff9ead6d07395f8e205",
+    "weight_sha256": "95faca4d11227dddf8633dbb5ff6c8a9003c1aa5b8945c73834b8007b10950b8"
+  }
+}

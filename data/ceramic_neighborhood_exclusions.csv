@@ -1,0 +1,3 @@
+﻿group_id,defect_type,reason
+NG/Deformation/S0006,Deformation,No disjoint in-bounds translation at radius 2
+NG/Deformation/S0049,Deformation,No disjoint in-bounds translation at radius 2
